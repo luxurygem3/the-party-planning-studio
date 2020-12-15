@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home | Party Planning Studio</title>
+    <link rel="stylesheet" href="PPS_home.css">
+</head>
+
+    
+        <body>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="PPS_home.html">Home</a>
+                <a href="PPS_birthday.html">Birthdays</a> 
+                <a href="PPS_celebrations.html">Celebrations</a>
+                <a href="PPS_festivals.html">Festivals</a>
+                <a href="PPS_weddings.html">Weddings</a>
+                <a href="PPS_contact.html">Contact Us</a>
+                <a href="PPS_about.html">Our Journey</a>
+            </div>
+            
+            <!--use any element to open the sidenav-->
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>    
+            
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+                
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+            
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Welcome to The Party Planning Studio!</h1>
+                        <p>Welcome to our website! Here, you can find different packages to make your event is successful and the best!</p>    
+                </div>
+            </div>
+            
+        </body>
+
+</html>
